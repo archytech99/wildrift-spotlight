@@ -1,5 +1,7 @@
 # 🎮 The Silent Macro Controller
 
+![Spotlight](banner.png "Spotlight")
+
 A personal Wild Rift player spotlight page focused on macro gameplay, map awareness, and team-oriented strategy.
 
 This project showcases:
