@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wild Rift Player Spotlight</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family:'Poppins',sans-serif;
+      background:#0b1020;
+      color:#f1f5f9;
+      overflow-x:hidden;
+      line-height:1.7;
+    }
+
+    body::before{
+      content:'';
+      position:fixed;
+      inset:0;
+      background:
+        radial-gradient(circle at top left,#1d4ed8 0%,transparent 35%),
+        radial-gradient(circle at bottom right,#7c3aed 0%,transparent 35%);
+      opacity:0.25;
+      z-index:-1;
+    }
+
+    .container{
+      width:min(1100px,92%);
+      margin:auto;
+      padding:60px 0;
+    }
+
+    .hero{
+      text-align:center;
+      margin-bottom:70px;
+    }
+
+    .hero h1{
+      font-size:3.5rem;
+      font-weight:700;
+      margin-bottom:10px;
+      background:linear-gradient(90deg,#60a5fa,#a78bfa);
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+    }
+
+    .hero p{
+      color:#cbd5e1;
+      font-size:1.1rem;
+    }
+
+    .tag{
+      display:inline-block;
+      margin-top:20px;
+      padding:10px 18px;
+      border:1px solid rgba(255,255,255,0.15);
+      border-radius:999px;
+      background:rgba(255,255,255,0.05);
+      backdrop-filter:blur(10px);
+      color:#93c5fd;
+      font-size:0.9rem;
+    }
+
+    .card{
+      background:rgba(255,255,255,0.05);
+      border:1px solid rgba(255,255,255,0.08);
+      border-radius:24px;
+      padding:35px;
+      margin-bottom:35px;
+      backdrop-filter:blur(12px);
+      transition:0.3s ease;
+    }
+
+    .card:hover{
+      transform:translateY(-4px);
+      border-color:rgba(96,165,250,0.5);
+      box-shadow:0 10px 40px rgba(59,130,246,0.15);
+    }
+
+    h2{
+      margin-bottom:18px;
+      font-size:1.8rem;
+      color:#93c5fd;
+    }
+
+    h3{
+      margin-top:25px;
+      margin-bottom:10px;
+      color:#c4b5fd;
+    }
+
+    p{
+      color:#dbeafe;
+    }
+
+    ul{
+      margin-top:10px;
+      padding-left:20px;
+    }
+
+    li{
+      margin-bottom:10px;
+      color:#dbeafe;
+    }
+
+    .champions{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      margin-top:20px;
+    }
+
+    .champion{
+      padding:10px 16px;
+      border-radius:12px;
+      background:rgba(96,165,250,0.1);
+      border:1px solid rgba(96,165,250,0.2);
+      color:#bfdbfe;
+      font-size:0.95rem;
+    }
+
+    .quote{
+      margin-top:25px;
+      padding:20px;
+      border-left:4px solid #60a5fa;
+      background:rgba(255,255,255,0.04);
+      border-radius:12px;
+      font-style:italic;
+      color:#cbd5e1;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+      gap:25px;
+    }
+
+    .footer{
+      margin-top:60px;
+      text-align:center;
+      color:#94a3b8;
+      font-size:0.95rem;
+    }
+
+    .footer span{
+      color:#60a5fa;
+      font-weight:600;
+    }
+
+    @media(max-width:768px){
+
+      .hero h1{
+        font-size:2.5rem;
+      }
+
+      .card{
+        padding:25px;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <section class="hero">
+      <h1>The Silent Macro Controller</h1>
+      <p>
+        Wild Rift Player Spotlight • Support Main • Macro-Oriented Player
+      </p>
+
+      <div class="tag">
+        “Winning through control, not chaos.”
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>🧠 Playstyle Identity</h2>
+
+      <p>
+        A player focused on map awareness, tempo control, objective priority,
+        and teamfight setup rather than flashy montage gameplay.
+      </p>
+
+      <div class="quote">
+        “Not the loudest player in the match —
+        but often the one controlling its direction.”
+      </div>
+    </section>
+
+    <div class="grid">
+
+      <section class="card">
+        <h2>🛡 Main Role — Support</h2>
+
+        <div class="champions">
+          <div class="champion">Thresh</div>
+          <div class="champion">Leona</div>
+          <div class="champion">Nautilus</div>
+          <div class="champion">Rakan</div>
+          <div class="champion">Morgana</div>
+          <div class="champion">Lux</div>
+        </div>
+
+        <h3>Characteristics</h3>
+
+        <ul>
+          <li>Strong engage & initiation mindset</li>
+          <li>Excellent positioning awareness</li>
+          <li>Understands vision & rotations</li>
+          <li>Can adapt between protector and initiator</li>
+          <li>Team-oriented decision making</li>
+        </ul>
+
+      </section>
+
+      <section class="card">
+        <h2>🌲 Secondary Role — Jungle</h2>
+
+        <div class="champions">
+          <div class="champion">Rammus</div>
+          <div class="champion">Lillia</div>
+          <div class="champion">Xin Zhao</div>
+          <div class="champion">Nautilus</div>
+          <div class="champion">Morgana</div>
+        </div>
+
+        <h3>Characteristics</h3>
+
+        <ul>
+          <li>Objective-focused gameplay</li>
+          <li>Punishes enemy overextension</li>
+          <li>Smart pathing & timing awareness</li>
+          <li>Draft adaptive mindset</li>
+          <li>Utility-heavy jungle approach</li>
+        </ul>
+
+      </section>
+
+      <section class="card">
+        <h2>⚔ Baron Lane</h2>
+
+        <div class="champions">
+          <div class="champion">Garen</div>
+          <div class="champion">Mordekaiser</div>
+          <div class="champion">Teemo</div>
+          <div class="champion">Renekton</div>
+          <div class="champion">Darius</div>
+        </div>
+
+        <h3>Characteristics</h3>
+
+        <ul>
+          <li>Stable frontline presence</li>
+          <li>Strong zoning & duel timing</li>
+          <li>Weakside capable</li>
+          <li>Understands lane pressure</li>
+          <li>Psychological warfare specialist ☠️</li>
+        </ul>
+
+      </section>
+
+    </div>
+
+    <section class="card">
+      <h2>📊 Overall Gameplay Profile</h2>
+
+      <div class="grid">
+
+        <div>
+          <h3>Strengths</h3>
+
+          <ul>
+            <li>High macro awareness</li>
+            <li>Strong teamfight understanding</li>
+            <li>Disciplined decision making</li>
+            <li>Flexible multi-role capability</li>
+            <li>Reliable initiator mindset</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Weaknesses</h3>
+
+          <ul>
+            <li>Overthinks teammate decisions 😭</li>
+            <li>Predicts disasters before they happen</li>
+            <li>Mental damage from solo queue randomness</li>
+            <li>Too aware of bad positioning</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="card">
+      <h2>🧩 Match Personality</h2>
+
+      <p>
+        Usually calm, observant, and highly analytical.
+        Prefers using pings over arguments and constantly tracks
+        enemy movement, objective timing, and map pressure.
+      </p>
+
+      <div class="quote">
+        “Don’t fight yet...”
+        <br><br>
+        5 seconds later:
+        <br>
+        <strong>An ally has been slain ☠️</strong>
+      </div>
+
+    </section>
+
+    <section class="card">
+      <h2>🏆 Player Archetype</h2>
+
+      <h3>The Backbone Player</h3>
+
+      <p>
+        Not the flashiest player.
+        Not the montage hunter.
+      </p>
+
+      <br>
+
+      <p>
+        But the kind of player who:
+      </p>
+
+      <ul>
+        <li>Keeps the team stable</li>
+        <li>Creates opportunities</li>
+        <li>Controls the tempo of the match</li>
+        <li>Builds the foundation of every teamfight</li>
+      </ul>
+
+      <div class="quote">
+        “The player you notice the most when they’re gone.”
+      </div>
+
+    </section>
+
+    <div class="footer">
+      Made with 🎮 and macro awareness by <span>AriefBP</span>
+    </div>
+
+  </div>
+
+</body>
+</html>
